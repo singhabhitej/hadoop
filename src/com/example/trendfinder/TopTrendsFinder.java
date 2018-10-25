@@ -19,9 +19,9 @@ import org.apache.hadoop.util.ToolRunner;
  */
 public class TopTrendsFinder extends Configured implements Tool {
 	
-	private static final String inputPath = "/home/bitnami/hadoop/input/test.jpda";
-	private static final String outputPath ="/home/bitnami/hadoop/output";
-	private static final String tempPath = "/home/bitnami/hadoop/temp";
+	private static final String inputPath = "/user/hadoop/input/test.jpda";
+	private static final String outputPath ="/user/hadoop/output";
+	private static final String tempPath = "/user/hadoop/temp";
 	
     @Override
     public int run(String[] args) throws Exception {
